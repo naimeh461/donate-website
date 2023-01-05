@@ -4,35 +4,31 @@
 }
 
 header{
-    background-image: url(/images/donation8.jpg),linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.74),black);
+    background-image: url(/images/donation8.jpg),linear-gradient(rgba(0, 0, 0, 0.353),rgb(0, 0, 0),black);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: 100% 100%;
     background-blend-mode: multiply;
-    text-align: justify;
-    padding: 50px 150px;
+    text-align: center;
+    padding: 200px 200px;
 }
-.header-title{
-
-    padding: 250px 25% 10px 25%;
-    font-size: 65px;
-    font-weight: 2000;
-    text-align: center;
+.header .header-title{
+    padding: 20px 200px;
+    font-size: 80px;
+    font-weight: 600;
     color: white;
-    text-align: center;
+    
 }
 .header-description{
     
     padding : 15px 30%;
     font-size: 18px;
-    text-align: center;
     color: rgb(218, 215, 215);
-    text-align: center;
 
 }
 .button{
-   margin-top:150px;
-   text-align: center;
+   margin-top:30px;
+
 }
 .common-button{
     background-color: #ff5959;
@@ -40,9 +36,93 @@ header{
     border: none;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 70px;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     
+}
+/*Donate Today section */
+.Donate{
+    text-align: center;
+    margin-top: 150px;
+    padding: 0 30%;
+}
+
+.Main-title{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.Donate-description{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #747474;
+    margin-bottom: 20px;
+    padding: auto;
+
+}
+.Donate-section-button{
+    display :flex;
+    gap : 30px;
+    justify-content: space-between;
+ 
+   
+}
+.donate-button{
+    margin-top: 60px;
+    border: none;
+    width: 136px;
+    height: 123px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #747474;
+    background-color: #dcdadac1;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.donate-button-1{
+    margin-top: 60px;
+    border-color: #ff5959;
+    border-width: 3px;
+    width: 136px;
+    height: 123px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #747474;
+    background-color: #ffeeee;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+/*Our Donate Plan section*/
+.Donate-plan{
+    text-align: center;
+    margin-top: 150px;
+    padding: 0 30%;
+}
+.Dontaion-plan-tile{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    
+}
+.box{
+    background-color: #edf5f6;
+    height: 360;
+    width: 352;
+    padding: 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.plan-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.plan-description{
+    font-size: 16px;
+    color: #747474;
 }
