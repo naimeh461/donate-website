@@ -4,35 +4,35 @@
 }
 
 header{
-    background-image: url(/images/donation8.jpg),linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.651),black);
+    background-image: url(/images/donation8.jpg),linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.74),black);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     background-blend-mode: multiply;
-}
-.backgroun-image{
-    
+    text-align: justify;
+    padding: 50px 150px;
 }
 .header-title{
-    padding: 100px 300px 10px 300px;
-    font-size: 50px;
-    width: 200;
-    background-position:;
+
+    padding: 250px 25% 10px 25%;
+    font-size: 65px;
+    font-weight: 2000;
     text-align: center;
     color: white;
+    text-align: center;
 }
 .header-description{
-    margin-top:20px;
-    padding : 0px 300px;
+    
+    padding : 15px 30%;
     font-size: 18px;
     text-align: center;
     color: rgb(218, 215, 215);
+    text-align: center;
 
 }
 .button{
-   margin-top:70px;
+   margin-top:150px;
    text-align: center;
-   margin-bottom: 70px;
 }
 .common-button{
     background-color: #ff5959;
@@ -40,8 +40,9 @@ header{
     border: none;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-bottom: 200px;
     
 }
