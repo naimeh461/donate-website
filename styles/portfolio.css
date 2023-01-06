@@ -4,7 +4,7 @@
 }
 
 header{
-    background-image: url(/images/donation8.jpg),linear-gradient(rgba(0, 0, 0, 0.353),rgb(0, 0, 0),black);
+    background-image: url(../images/donation8.jpg),linear-gradient(rgba(0, 0, 0, 0.353),rgb(0, 0, 0),black);
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: 100% 100%;
